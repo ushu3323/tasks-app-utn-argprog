@@ -1,0 +1,37 @@
+.task-list{
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+  height:100%;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.task-list__title{
+  text-align: start;
+  padding: 20px;
+}
+
+.task-list__table{
+  border-collapse: collapse;
+}
+
+.task-list__thead {
+  background-color: #f9f9f9;
+  height: 40px;
+}
+
+.task-list__th {
+  font-weight: normal;
+  color: gray;
+}
+
+.task-list__th:first-child{
+  padding-left: 40px;
+  text-align:start
+}
+.task-list__th:last-child{
+  padding-right: 40px;
+}
